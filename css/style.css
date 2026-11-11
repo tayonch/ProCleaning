@@ -1,0 +1,178 @@
+/* ALL COMMON CSS START */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: 0;
+   
+}
+ul,ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* ALL COMMON CSS END */
+
+/* HEADER SECTION CSS START */
+nav{
+    margin: 24px 0px;
+}
+.menuflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menubar ul{
+    display: flex;
+   gap: 29px
+   ;
+    align-items: center;
+}
+.menubar ul li a{
+    color: #4D4D4D;
+    transition: 0.5s;
+}
+.menubar ul li a:hover{
+    color:#36B864;
+}
+.menubtn a{
+    color: #fff;
+    background-color: #36B864;
+    padding: 12px 32px;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+/* HEADER SECTION CSS END */
+/* banner SECTION CSS START */
+#banner{
+    background-image: url(../images/Hero\ Section.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 104px 0px;
+   
+    width:100%;
+}
+.bannertext h5{
+    font-size: 20px;
+    line-height: 120%;
+    color: #111D15;
+    
+}
+.bannertext h1{
+    color: #111D15;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 115%;
+    width: 610px;
+    margin: 12px 0px 24px 0px;
+
+}
+.bannertext p{
+    color: #666666;
+    font-size: 18px;
+    line-height: 30px;
+    width: 543px;
+    margin-bottom: 57px;
+
+}
+.bannerbtn a{
+    color: #fff;
+    background-color: #36B864;
+    border-radius: 6px;
+    padding: 17px 32px;
+    
+
+}
+.bannerbtn a:hover{
+    color:#111D15;
+    border: 1px solid #111D15;
+    border-radius: 6px;
+    background: transparent;
+}
+.bannerbtn a:nth-child(2){
+    margin-left: 25px;
+}
+
+
+/* banner SECTION CSS END */
+/* service SECTION CSS START */
+.servicetext h2{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+    width: 536px;
+}
+.servicetext h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #111D15;
+     margin-bottom: 12px;
+}
+.servicetext p{
+    line-height: 150%;
+    color: #666666;
+   
+}
+.servicetext{
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+.serviceline{
+    width: 1170px;
+    color: #83A790;
+}
+.scardimg{
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+.scardtext h4{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+}
+.scardtext p{
+    color:#666666;
+    width: 370px;
+    line-height: 150%;
+    margin-top: 16px;
+    margin-bottom: 36px;
+}
+.scardbtn a{
+    color: #111D15;
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: 1px solid #4D4D4D;
+
+}
+.scardbtn a:hover{
+    color:#fff;
+   background-color: #36B864;
+   border:#fff;
+
+}
+.scardbtn a i{
+    color: #666666;
+    margin-left: 10px;
+    transform: rotate(-45deg);
+}
+.scardbtn a i:hover{
+    color:#fff;
+    
+   
+}
+/* service SECTION CSS END */
+/* HEADER SECTION CSS START */
+/* HEADER SECTION CSS END */
+/* HEADER SECTION CSS START */
+/* HEADER SECTION CSS END */
