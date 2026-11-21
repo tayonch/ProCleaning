@@ -4,7 +4,7 @@
     padding: 0px;
     box-sizing: border-box;
     outline: 0;
-   
+     font-family: "Be Vietnam Pro", sans-serif;
 }
 ul,ol{
     list-style-type: none;
@@ -20,8 +20,10 @@ h1,h2,h3,h4,h5,h6,p{
 /* ALL COMMON CSS END */
 
 /* HEADER SECTION CSS START */
+
 nav{
     margin: 24px 0px;
+   
 }
 .menuflex{
     display: flex;
@@ -52,7 +54,8 @@ nav{
 /* HEADER SECTION CSS END */
 /* banner SECTION CSS START */
 #banner{
-    background-image: url(../images/Hero\ Section.png);
+    height:700px;
+    background-image: url(../images/Hero\ Section\ \(2\).png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -120,6 +123,8 @@ nav{
 .servicetext p{
     line-height: 150%;
     color: #666666;
+    width: 433px;
+    margin-right: 0px;
    
 }
 .servicetext{
@@ -134,6 +139,7 @@ nav{
     border-radius: 30px;
     margin-top: 40px;
     margin-bottom: 16px;
+    
 }
 .scardtext h4{
     font-size: 24px;
@@ -158,21 +164,40 @@ nav{
 .scardbtn a:hover{
     color:#fff;
    background-color: #36B864;
-   border:#fff;
+   border:#36B864;
 
 }
-.scardbtn a i{
-    color: #666666;
-    margin-left: 10px;
-    transform: rotate(-45deg);
-}
-.scardbtn a i:hover{
-    color:#fff;
-    
+.arrowleft{
+    background-color: #36B864;
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+    color: #fff;
+    position: relative;
    
 }
+.arrowleft i{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50% , -50%);
+}
+
 /* service SECTION CSS END */
-/* HEADER SECTION CSS START */
-/* HEADER SECTION CSS END */
+/* quotes SECTION CSS START */
+.qtext h6{
+  font-family: "Lato", sans-serif;
+  line-height: 120%;
+  color: #111D15;
+}
+.qtext h3{
+ /* font-family: "Oregano", cursive; */
+ width: 468px;
+}
+.qtext p{
+    width: 464px;
+}
+
+/* quotes SECTION CSS END */
 /* HEADER SECTION CSS START */
 /* HEADER SECTION CSS END */

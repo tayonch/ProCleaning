@@ -1,0 +1,67 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+nav{
+    margin: 24px 0px;
+   
+}
+.menuflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menubar ul{
+    display:flex;
+   gap: 5px
+   ;
+    align-items: center;
+}
+.menubar ul li a{
+
+
+
+ font-size: 14px;
+
+}
+.menubar ul li a:hover{
+    color:#36B864;
+}
+.menubtn a{
+    color: #fff;
+    background-color: #36B864;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+/* // Extra large devices (large desktops) */
+/* // No media query since the extra-large breakpoint has no upper bound on its width */
