@@ -90,6 +90,7 @@ nav {
     line-height: 120%;
     color: #111D15;
     width: 536px;
+    
 }
 
 .servicetext h5 {
@@ -97,6 +98,8 @@ nav {
     font-weight: 600;
     color: #111D15;
     margin-bottom: 12px;
+    margin-top: -70px;
+    border: 1px solid #000;
 }
 
 .servicetext p {
@@ -107,7 +110,7 @@ nav {
 
 }
 .servicetwo{
-margin: 20px 0px;
+margin: 10px 0px;
 }
 
 .servicetext {
@@ -398,7 +401,7 @@ margin: 20px 0px;
 
 .pricetop {
     padding-top: 40px;
-    padding-bottom: 445px;
+    padding-bottom: 430px;
 }
 
 .pricetop h5 {
@@ -502,14 +505,17 @@ font-size: 6px;
 margin-right: 10px;
 margin-top: 5px;
 }
+.pricebtnbtm {
+   margin-top: -18px; 
+}
 .pricebtnbtm a{
    
-       border: 1px solid #111D15;
+       border: 0.5px solid #111d1556;
    color: #111D15;
-    padding: 10px 3px ;
+    padding: 4px 10px ;
     border-radius: 20px;
     width: 250px;
-    margin-top: -30px;
+    margin-top: -40px;
    
    
     
