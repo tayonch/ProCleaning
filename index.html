@@ -19,42 +19,51 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <!-- Google fonts end -->
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-</head><link rel="stylesheet" href="css/media.css">
+</head>
+<link rel="stylesheet" href="css/media.css">
 
 <body>
     <!-- HEADER SECTION STRAT -->
     <header>
-        <nav>
+        <nav class="navbar navbar-expand-lg ">
             <div class="container">
-                <div class="row">
-                    <div class=" col-2 col-lg-4">
-                        <div class="menuimg">
-                            <img src="images/Logo (6).png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <!-- <div class=" colcol-lg-1"></div> -->
-                    <div class=" col-7 col-lg-6">
-                        <div class="menubar">
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Service</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
-                            </ul>
+                <img src="images/Logo (6).png" alt="" class="img-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
 
-                        </div>
+                    </ul>
+                    <div class="menubtn">
+                        <a href="#">Get a quote</a>
                     </div>
-                    <!-- <div class=" col-lg-1"></div> -->
-                    <div class=" col-3 col-lg-2">
-                        <div class="menubtn">
-                            <a href="#">Get a quote</a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </nav>
@@ -64,7 +73,9 @@
         <!-- banner SECTION STRAT -->
         <section id="banner">
             <div class="container">
-                <div class="bannertext">
+               <div class="row">
+                <div class="col-lg-12">
+                     <div class="bannertext">
                     <h5>Quality cleaning at a fair price.</h5>
                     <h1>Specialized, efficient, and thorough cleaning services</h1>
                     <p>We provide Performing cleaning tasks using the least amount of time, energy, and money.</p>
@@ -73,6 +84,8 @@
                         <a href="#">View all Services</a>
                     </div>
                 </div>
+                </div>
+               </div>
             </div>
 
 
@@ -112,28 +125,30 @@
                             <div class="scardimg">
                                 <img src="images_service/Image (1).png" alt="">
                             </div>
-                        </div>
-                        <div class="scardtext">
-                            <h4>Office Cleaning</h4>
-                            <p>While we can customize your cleaning plan to suit your needs, most clients schedule
-                                regular cleaning services:</p>
-                            <div class="scardbtn">
-                                <a href="#">Book Now &#8599;</a>
+
+                            <div class="scardtext">
+                                <h4>Office Cleaning</h4>
+                                <p>While we can customize your cleaning plan to suit your needs, most clients schedule
+                                    regular cleaning services:</p>
+                                <div class="scardbtn">
+                                    <a href="#">Book Now &#8599;</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-4">
-                        <div class="servicecard">
+                        <div class="servicecard servicetwo">
                             <div class="scardimg">
                                 <img src="images_service/Image (2).png" alt="">
                             </div>
-                        </div>
-                        <div class="scardtext">
-                            <h4>Spring Cleaning</h4>
-                            <p>While we can customize your cleaning plan to suit your needs, most clients schedule
-                                regular cleaning services:</p>
-                            <div class="scardbtn">
-                                <a href="#">Book Now &#8599;</a>
+
+                            <div class="scardtext ">
+                                <h4>Spring Cleaning</h4>
+                                <p>While we can customize your cleaning plan to suit your needs, most clients schedule
+                                    regular cleaning services:</p>
+                                <div class="scardbtn">
+                                    <a href="#">Book Now &#8599;</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -142,16 +157,17 @@
                             <div class="scardimg">
                                 <img src="images_service/Image (3).png" alt="">
                             </div>
-                        </div>
-                        <div class="scardtext">
-                            <h4>House Cleaning</h4>
-                            <p>While we can customize your cleaning plan to suit your needs, most clients schedule
-                                regular cleaning services:</p>
-                            <div class="scardbtn">
-                                <a href="#">Book Now &#8599;</a>
-                            </div>
-                            <div class="arrowleft">
-                                <i class="fa-solid fa-arrow-right"></i>
+
+                            <div class="scardtext">
+                                <h4>House Cleaning</h4>
+                                <p>While we can customize your cleaning plan to suit your needs, most clients schedule
+                                    regular cleaning services:</p>
+                                <div class="scardbtn">
+                                    <a href="#">Book Now &#8599;</a>
+                                </div>
+                                <div class="arrowleft">
+                                    <img src="images_service/Arrow (1).png" alt="" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -169,7 +185,8 @@
                         <div class="qtext">
                             <h6>Affordable cleaning solutions</h6>
                             <h3>High-Quality and Friendly
-                                Services at Fair Prices</h3>
+                            </h3>
+                            <h4>Services at Fair Prices</h4>
                             <p>We provide comprehensive cleaning services tailored to your needs. From residential
                                 cleaning
                                 services</p>
@@ -183,25 +200,432 @@
                     <div class="col-lg-5">
                         <div class="qimg">
                             <div class="qimgone">
-                                <img src="image_quotes/Image (4).png" alt="">
-                            </div>
-                            <div class="qimgtwo">
-                                <img src="image_quotes/Image (5).png" alt="">
+
+
+                                <img src="image_quotes/Image (4).png" alt="" class="img-fluid">
+
+                                <div class="qimgtwo">
+                                    <img src="image_quotes/Image (5).png" alt="" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
+
+
                 </div>
             </div>
 
         </section>
         <!--quote SECTION END -->
-        <!-- HEADER SECTION STRAT -->
-        <!-- HEADER SECTION END -->
+        <!-- member SECTION STRAT -->
+        <section id="member">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="mebertext">
+                            <h3>Effective Cleaning Requires an Expert Cleaning Team</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="membertext">
+                            <h5>Expert Team</h5>
+                            <p>We have professional expert cleaning staff ensuring top-notch cleanliness and hygiene for
+                                your space.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 memcard">
+                            <div class="memimg">
+                                <img src="images_member/images1.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="memcardbtm">
+                                <h4>Erick Reynolds</h4>
+                                <img src="images_member/Review star.png" alt="" class="img-fluid">
+                                <p>He is an expert cleaning staff member who provides thorough cleaning with precision,
+                                </p>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 memcard">
+                            <div class="memimg">
+                                <img src="images_member/images2.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="memcardbtm">
+                                <h4>Erick Reynolds</h4>
+                                <img src="images_member/Review star.png" alt="" class="img-fluid">
+                                <p>He is an expert cleaning staff member who provides thorough cleaning with precision,
+                                </p>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 memcard">
+                            <div class="memimg">
+                                <img src="images_member/Image (8).png" alt="" class="img-fluid">
+                            </div>
+                            <div class="memcardbtm">
+                                <h4>Erick Reynolds</h4>
+                                <img src="images_member/Review star.png" alt="" class="img-fluid">
+                                <p>He is an expert cleaning staff member who provides thorough cleaning with precision,
+                                </p>
+                                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+        </section>
+        <!-- member SECTION END -->
+        <!-- company section start -->
+        <section id="company">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="companyimg">
+                            <img src="images_company/images1.png" alt="" class="img-fluid">
+                            <div class="comimg">
+                                <img src="images_company/2.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-6">
+                        <div class="combtm">
+                            <h3>Welcome To Our <br>
+                                Pro-cleaning Company!</h3>
+                            <p>We make your space shine! Professional and reliable cleaning service company providing
+                                top-notch solutions for homes and businesses. Satisfaction guaranteed!"</p>
+                            <div class="row ">
+                                <div class="col-lg-6"> <a href="#"><i class="fa-solid fa-circle-check"></i>Vetted
+                                        professionals
+                                    </a></div>
+                                <div class="col-lg-6"> <a href="#"><i class="fa-solid fa-circle-check"></i>Affordable
+                                        Prices
+                                    </a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 ">
+                                    <div class="comtop">
+                                        <a href="#"><i class="fa-solid fa-circle-check"></i> Next day availability</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="comtop">
+                                        <a href="#"><i class="fa-solid fa-circle-check"></i>Best Quality </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6"> <a href="#"><i class="fa-solid fa-circle-check"></i>Standard
+                                        cleaning tasks
+
+                                    </a></div>
+                                <div class="col-lg-6"> <a href="#"><i class="fa-solid fa-circle-check"></i>Affordable
+                                        Prices
+
+                                    </a></div>
+                            </div>
+                        </div>
+                        <div class="companybtn">
+                            <a href="#">Book Now</a>
+                            <a href="#">Know More</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- company section end -->
+        <!-- priceing start -->
+        <section id="price">
+            <div class="container">
+                <div class="pricetop">
+                    <h5>Our pricing</h5>
+                    <h3>Choose From Our Lowest Plans and Prices</h3>
+                    <div class="pricewrapbtn">
+                        <div class="pricebtn">
+                            <a href="#">Monthly</a>
+                            <a href="#">Yearly</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4 col-lg-4">
+                        <div class="pricecard">
+                            <h4>Basic Package</h4>
+                            <div class="pricewrap">
+                                <h3><i class="fa-solid fa-dollar-sign"></i> 59.00/ <span
+                                        class="pricewrapmont">Monthly</span></h3>
+                            </div>
+                            <div class="pricecardtext">
+                                <h6><i class="fa-solid fa-circle"></i>Dusting of all surfaces</h6>
+                                <h6><i class="fa-solid fa-circle"></i>Sweeping and mopping floors</h6>
+                                <h6><i class="fa-solid fa-circle"></i>Vacuuming carpets and rugs</h6>
+                                <h6><i class="fa-solid fa-circle"></i>Cleaning of kitchen surfaces</h6>
+                                <h6><i class="fa-solid fa-circle"></i>Cleaning of bathroom surfaces</h6>
+                                <h6><i class="fa-solid fa-circle"></i>Emptying trash bins</h6>
+                            </div>
+                            <div class="pricebtnbtm">
+                                <a href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-4 col-lg-4">
+                        <div class="pricecard">
+                            <h4>Enterprise Package</h4>
+                            <div class="pricewrap">
+                                <h3><i class="fa-solid fa-dollar-sign"></i> 69.00/ <span
+                                        class="pricewrapmont">Monthly</span></h3>
+                            </div>
+                            <div class="pricecardtext">
+                                <h6><i class="fa-solid fa-circle"></i>All services in the Basic Plan
+                                </h6>
+                                <h6><i class="fa-solid fa-circle"></i>Detailed dusting
+                                </h6>
+                                <h6><i class="fa-solid fa-circle"></i>Wiping down of kitchen appt</h6>
+                                <h6><i class="fa-solid fa-circle"></i>Cleaning inside the microwave
+                                </h6>
+                                <h6><i class="fa-solid fa-circle"></i>Changing bed linens
+
+                                </h6>
+                                <h6><i class="fa-solid fa-circle"></i>Spot cleaning walls and doors
+                                </h6>
+                            </div>
+                            <div class="pricebtnbtm">
+                                <a href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 col-lg-4">
+                        <div class="pricecard">
+                            <h4>Premium Package</h4>
+                            <div class="pricewrap">
+                                <h3><i class="fa-solid fa-dollar-sign"></i> 99.00/ <span
+                                        class="pricewrapmont">Monthly</span></h3>
+                            </div>
+                            <div class="pricecardtext">
+                                <h6><i class="fa-solid fa-circle"></i>Dusting of all surfaces</h6>
+                                <h6><i class="fa-solid fa-circle"></i>Sweeping and mopping floors</h6>
+                                <h6><i class="fa-solid fa-circle"></i>Vacuuming carpets and rugs</h6>
+                                <h6><i class="fa-solid fa-circle"></i>Cleaning of kitchen surfaces</h6>
+                                <h6><i class="fa-solid fa-circle"></i>Cleaning of bathroom surfaces</h6>
+                                <h6><i class="fa-solid fa-circle"></i>Emptying trash bins</h6>
+                            </div>
+                            <div class="pricebtnbtm">
+                                <a href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- priceing end -->
+        <!-- experirience start -->
+        <section id="experirience">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="extext">
+                            <h3>Feedback About Their Experience With Us</h3>
+                            <p>Read testimonials from our satisfied clients. See how our cleaning services have made a
+                                difference in their lives and homes</p>
+                        </div>
+                        <div class="exfont">
+                            <i class="fa-solid fa-arrow-left-long"></i>
+                            <i class="fa-solid fa-arrow-right-long"></i>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="exbottom">
+                            <img src="images_experience/Testimonials cards.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- experirience end -->
+        <!-- service start -->
+        <section id="serviceone">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="servicetextt">
+                            <h3>Stay Updated with Our
+                                Tips & Service News!</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="serviceetextt">
+                            <h5>Our Blog</h5>
+                            <p>Stay informed with our latest cleaning tips, service updates, expert advice on
+                                maintaining an immaculate home</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 servicecardone">
+                            <div class="serviceimgone">
+                                <img src="images_serviceone/Image (12).png" alt="" class="img-fluid">
+                            </div>
+                            <h6>JOHN HELTON JAN 6, 2025</h6>
+                            <h3>Eco-Friendly Cleaning: How We Keep Your Home Green</h3>
+                            <p>Learn about our commitment to eco-friendly practices. We share the eco-conscious
+                                products...</p>
+                            <div class="sertwobtn">
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 servicecardone">
+                            <div class="serviceimgone">
+                                <img src="images_serviceone/Image (13).png" alt="" class="img-fluid">
+                            </div>
+                            <h6>JOHN HELTON JAN 6, 2025</h6>
+                            <h3>Eco-Friendly Cleaning: How We Keep Your Home Green</h3>
+                            <p>Learn about our commitment to eco-friendly practices. We share the eco-conscious
+                                products...</p>
+                            <div class="sertwobtn">
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 servicecardone">
+                            <div class="serviceimgone">
+                                <img src="images_serviceone/Image (14).png" alt="" class="img-fluid">
+                            </div>
+                            <h6>JOHN HELTON JAN 6, 2025</h6>
+                            <h3>Eco-Friendly Cleaning: How We Keep Your Home Green</h3>
+                            <p>Learn about our commitment to eco-friendly practices. We share the eco-conscious
+                                products...</p>
+                            <div class="sertwobtn">
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+        </section>
+        <!-- service end -->
+        <!-- contract start -->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="contactext">
+                            <h3>Find us</h3>
+                            <div class="contactnav d-flex">
+                                <img src="images_contact/Call icon.png" alt="" class="img-fluid">
+                                <div class="conttext">
+                                    <h5>Call Us</h5>
+                                    <h6>+(08) 255 201 888</h6>
+                                </div>
+                            </div>
+                            <div class="contactnav contmidium d-flex ">
+                                <img src="images_contact/Call icon.png" alt="" class="img-fluid">
+                                <div class="conttext">
+                                    <h5>Call Us</h5>
+                                    <h6>+(08) 255 201 888</h6>
+                                </div>
+                            </div>
+                            <div class="contactnav d-flex">
+                                <img src="images_contact/Call icon.png" alt="" class="img-fluid">
+                                <div class="conttext">
+                                    <h5>Call Us</h5>
+                                    <h6>+(08) 255 201 888</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="contbtm">
+                            <h6>Contact info</h6>
+                            <h4>Keep In Touch</h4>
+                            <p>We prioritize responding to your inquiries promptly to ensure you
+                                receive the assistance you need in a timely manner</p>
+                            <div class="contform">
+                                <input type="text" placeholder="Name"><br>
+                                <input type="email" placeholder="Email"><br>
+                                <div class="contformbtm">
+                                    <input type="text" placeholder="Message">
+                                </div>
+                                <div class="combtbtn">
+                                    <a href="#">see message</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contract end -->
+        <!-- footer start -->
+        <section id="footter">
+            <div class="container">
+                <div class="row">
+ <div class="col-lg-4">
+    <div class="fottimg">
+        <img src="images/footerlogo.png" alt="" class="img-fluid">
+        <p>Stay updated with our latest cleaning tips, service updates, and helpful articles on maintaining a spotless home.</p>
+    </div>
+ </div>
+ <div class="col-6 col-lg-2">
+    <div class="fotscond">
+        <h4>Company</h4>
+        <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Our Team</a></li>
+          
+        </ul>
+    </div>
+ </div>
+ <div class="col-6 col-lg-2">
+    <div class="fotscond">
+        <h4>Know More</h4>
+        <ul>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & conditions</a></li>
+        </ul>
+    </div>
+ </div>
+ <div class=" col-lg-4">
+    <div class="footbtm">
+        <h4>Newsletter </h4>
+        <input type="email" placeholder="Email Goes here" w-100%>
+        <div class="footbtn">
+            <a href="#">Send</a>
+        </div>
+    </div>
+ </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer end -->
     </main>
 
 
 
-    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>

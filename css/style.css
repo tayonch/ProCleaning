@@ -1,49 +1,52 @@
 /* ALL COMMON CSS START */
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     outline: 0;
-     font-family: "Be Vietnam Pro", sans-serif;
+    font-family: "Be Vietnam Pro", sans-serif;
 }
-ul,ol{
+
+ul,
+ol {
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-h1,h2,h3,h4,h5,h6,p{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0px;
     padding: 0px;
 
 }
+
 /* ALL COMMON CSS END */
 
 /* HEADER SECTION CSS START */
 
-nav{
+nav {
     margin: 24px 0px;
-   
+
 }
-.menuflex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.menubar ul{
-    display: flex;
-   gap: 29px
-   ;
-    align-items: center;
-}
-.menubar ul li a{
+
+.navbar-nav .nav-item a {
     color: #4D4D4D;
     transition: 0.5s;
 }
-.menubar ul li a:hover{
-    color:#36B864;
+
+.navbar-nav .nav-item a:hover {
+    color: #36B864;
 }
-.menubtn a{
+
+.menubtn a {
     color: #fff;
     background-color: #36B864;
     padding: 12px 32px;
@@ -53,23 +56,25 @@ nav{
 
 /* HEADER SECTION CSS END */
 /* banner SECTION CSS START */
-#banner{
-    height:700px;
+#banner {
+    height: 700px;
     background-image: url(../images/Hero\ Section\ \(2\).png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 104px 0px;
-   
-    width:100%;
+
+  
 }
-.bannertext h5{
+
+.bannertext h5 {
     font-size: 20px;
     line-height: 120%;
     color: #111D15;
-    
+
 }
-.bannertext h1{
+
+.bannertext h1 {
     color: #111D15;
     font-weight: 700;
     font-size: 52px;
@@ -78,7 +83,8 @@ nav{
     margin: 12px 0px 24px 0px;
 
 }
-.bannertext p{
+
+.bannertext p {
     color: #666666;
     font-size: 18px;
     line-height: 30px;
@@ -86,118 +92,702 @@ nav{
     margin-bottom: 57px;
 
 }
-.bannerbtn a{
+
+.bannerbtn a {
     color: #fff;
     background-color: #36B864;
     border-radius: 6px;
     padding: 17px 32px;
-    
+
 
 }
-.bannerbtn a:hover{
-    color:#111D15;
+
+.bannerbtn a:hover {
+    color: #111D15;
     border: 1px solid #111D15;
     border-radius: 6px;
     background: transparent;
 }
-.bannerbtn a:nth-child(2){
+
+.bannerbtn a:nth-child(2) {
     margin-left: 25px;
 }
 
 
 /* banner SECTION CSS END */
 /* service SECTION CSS START */
-.servicetext h2{
+.servicetext h2 {
     font-size: 44px;
     font-weight: 600;
     line-height: 120%;
     color: #111D15;
     width: 536px;
 }
-.servicetext h5{
+
+.servicetext h5 {
     font-size: 20px;
     font-weight: 600;
     color: #111D15;
-     margin-bottom: 12px;
+    margin-bottom: 12px;
 }
-.servicetext p{
+
+.servicetext p {
     line-height: 150%;
     color: #666666;
     width: 433px;
     margin-right: 0px;
-   
+
 }
-.servicetext{
+.servicecard{
+transition: 0.5s;
+}
+.servicecard:hover{
+    transform: translateY(-10px);
+}
+.servicetext {
     margin-top: 150px;
     margin-bottom: 40px;
 }
-.serviceline{
+
+.serviceline {
     width: 1170px;
     color: #83A790;
 }
-.scardimg{
+
+.scardimg {
     border-radius: 30px;
     margin-top: 40px;
     margin-bottom: 16px;
-    
+  
+
 }
-.scardtext h4{
+.scardimg img{
+    margin-left: 0px;
+    width: 100%;
+}
+
+.scardtext h4 {
     font-size: 24px;
     font-weight: 600;
     line-height: 120%;
     color: #111D15;
 }
-.scardtext p{
-    color:#666666;
+
+.scardtext p {
+    color: #666666;
     width: 370px;
     line-height: 150%;
     margin-top: 16px;
     margin-bottom: 36px;
 }
-.scardbtn a{
+
+.scardbtn a {
     color: #111D15;
     padding: 12px 20px;
     border-radius: 6px;
     border: 1px solid #4D4D4D;
 
 }
-.scardbtn a:hover{
-    color:#fff;
-   background-color: #36B864;
-   border:#36B864;
+
+.scardbtn a:hover {
+    color: #fff;
+    background-color: #36B864;
+    border: #36B864;
 
 }
-.arrowleft{
-    background-color: #36B864;
-    height:60px;
-    width: 60px;
-    border-radius: 50%;
-    color: #fff;
-    position: relative;
+
+.arrowleft {
    
+    
+    margin-left: 400px;
+    margin-top: -400px;
+    width: 100%;
+    
+
+
 }
-.arrowleft i{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translateX(-50% , -50%);
-}
+
 
 /* service SECTION CSS END */
 /* quotes SECTION CSS START */
-.qtext h6{
-  font-family: "Lato", sans-serif;
-  line-height: 120%;
-  color: #111D15;
+.qtext {
+    margin: 122px 0px;
 }
-.qtext h3{
- /* font-family: "Oregano", cursive; */
- width: 468px;
+
+.qtext h6 {
+    font-family: "Lato", sans-serif;
+    line-height: 120%;
+    color: #111D15;
 }
-.qtext p{
-    width: 464px;
+
+.qtext h3 {
+    font-family: "Oregano", cursive;
+
+    font-size: 44px;
+    line-height: 120%;
+    margin-top: 24px;
+}
+
+.qtext h4 {
+    font-family: "Outfit", sans-serif;
+
+    font-size: 44px;
+    line-height: 120%;
+}
+
+.qtext p {
+    width: 516px;
+    font-family: "Lato", sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+    color: #666666;
+    margin-top: 32px;
+    margin-bottom: 52px;
+}
+
+.qbtn a {
+    padding: 16px 36px;
+    color: #fff;
+    background-color: #36B864;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.qimg {
+    position: relative;
+    margin: 75px 0px;
+}
+
+.qimgtwo img {
+    position: absolute;
+    top: 156px;
+    left: -100px;
+
 }
 
 /* quotes SECTION CSS END */
-/* HEADER SECTION CSS START */
-/* HEADER SECTION CSS END */
+/* member SECTION CSS START */
+#member {
+    margin-top: 75px;
+}
+
+.mebertext h3 {
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+    width: 610px;
+    margin-bottom: 40px;
+}
+
+.membertext h5 {
+    font-size: 20px;
+    font-weight: 600;
+
+    color: #111D15;
+}
+
+.membertext p {
+    line-height: 150%;
+    width: 448px;
+
+    color: #666666;
+    margin-top: 12px;
+    margin-bottom: 61px;
+}
+
+.memcardbtm {
+    margin-left: 20px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.memcard {
+    margin-top: 40px;
+    transition: 0.5s;
+}
+.memcard:hover{
+    box-shadow: 0 60 60 rgb(0,0,0,0.40);
+    
+   transform: translateY(-10px);
+}
+
+.memcardbtm img {
+    margin: 16px 0px;
+
+}
+
+.memcardbtm p {
+    margin-bottom: 20px;
+    line-height: 150%;
+
+    color: #666666;
+}
+
+.memcardbtm h4 {
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 600;
+    color: #111D15;
+}
+
+.memcardbtm a {
+    margin-left: 12px;
+}
+
+/* member SECTION CSS END */
+/* company star */
+#company {
+    margin: 75px 0;
+}
+
+.combtm {
+    margin-right: 0px;
+}
+
+.combtm h3 {
+    width: 525px;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+}
+
+.companyimg {
+    position: relative;
+    margin: 88px 0px;
+
+}
+
+.comimg {
+    position: absolute;
+    top: 177px;
+    right: -60px;
+}
+
+.combtm p {
+
+    line-height: 160%;
+    color: #666666;
+    width: 525px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.combtm {
+    margin: 75px 0px;
+}
+
+.comtop {
+    margin: 20px 0px;
+
+}
+
+.combtm a {
+    color: #111D15;
+    font-weight: 600;
+}
+
+.combtm i {
+    color: #36B864;
+}
+
+.companybtn a {
+    background-color: #36B864;
+    color: #fff;
+    padding: 12px 32px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+
+.companybtn a:hover {
+    background: transparent;
+    color: #111D15;
+    border: 1px solid #111D15;
+}
+
+.companybtn {
+    margin-top: 60px;
+}
+
+.companybtn a:nth-child(2) {
+    margin-left: 24px;
+}
+
+/* company end */
+/* price start */
+#price {
+    background-color: #36B864;
+    text-align: center;
+  
+}
+
+.pricetop {
+    padding-top: 93px;
+    padding-bottom: 445px;
+}
+
+.pricetop h5 {
+    font-size: 20px;
+    color: #ffffffa2;
+
+}
+
+.pricetop h3 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 600;
+    width: 551px;
+    line-height: 120%;
+    margin: 0 auto;
+    padding-top: 12px;
+    padding-bottom: 36px;
+}
+
+.pricebtn a {
+    padding: 7px 22px;
+    background-color: #36B864;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+.pricebtn a:hover {
+
+    background-color: #fff;
+    color: #111D15;
+    border: 1px solid #111d153f;
+
+}
+
+.pricebtn {
+    padding: 10px 8px;
+    color: #fff;
+    border-radius: 200px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 234px;
+
+
+    margin: 0 auto;
+
+}
+.pricecard{
+    background-color: #fff;
+    border-radius: 20px;
+  
+  margin-top: -400px;
+  padding-top: 10px;
+}
+
+.pricecard h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #111D15;
+   text-align: center;
+  
+    margin-top: 30px;
+    margin-bottom: 24px;
+    
+}
+.pricewrap h3 i{
+font-size: 14px;
+margin-right: -10px;
+}
+.pricewrap h3{
+    padding: 20px 40px;
+    background-color: #36B864;
+
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: #fff;
+}
+.pricewrapmont{
+    font-size: 14px;
+margin-left: -10px;
+}
+.pricecardtext{
+ padding-top: 16px;
+ padding-bottom: 56px;
+ width: 250px;
+ text-align: start;
+margin: 0 auto;
+
+
+
+}
+.pricecardtext h6{
+font-size: 14px;
+color: #666666;
+margin-top: 25px;
+}
+.pricecardtext h6 i{
+font-size: 6px;
+margin-right: 10px;
+margin-top: 10px;
+}
+.pricebtnbtm a{
+   
+       border: 1px solid #111D15;
+   color: #111D15;
+    padding: 20px 110px ;
+    border-radius: 20px;
+   
+    
+  
+}
+.pricebtnbtm a:hover{
+   border: none;
+
+   color: #111D15;
+   color: #fff;
+       background-color: #36B864;
+  
+}
+.pricebtnbtm{
+    text-align: center;
+
+}
+/* price end */
+/* experinece start  */
+.extext h3{
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+    width: 500px;
+    margin-top: 150px;
+}
+.extext p{
+  width: 419px;
+  line-height: 160%;
+  color: #666666;
+  margin-top: 24px;
+  margin-bottom: 36px;
+}
+.exfont i{
+    padding: 16px 32px;
+    border: 1px solid #36B864;
+    color:#36B864 ;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+.exfont i:nth-child(2){
+    margin-left: 30px;
+}
+.exfont i:hover{
+   
+  color: #fff;
+    background-color: #36B864;
+}
+.exbottom{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.exbottom:hover{
+  box-shadow: 0 58 90 rgba(0,0,0,0.40);
+  transform: translateY(-10px)
+}
+/* experinece end */
+/* service start */
+.servicetextt h3{
+    width: 570px;
+    font-size: 44px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+    margin-top: -75px;
+}
+.servicetextt p{
+    color: #666666;
+    width: 474px;
+    line-height: 150%;
+    margin-top: 12px;
+}
+.serviceetextt h5{
+    margin-top: 75px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111D15;
+}
+.serviceimg{
+    width: 99%;
+    margin-top: 40px;
+}
+.servicecardone h6{
+    color: #666666;
+    margin-top: 36px;
+    
+}
+.servicecardone h3{
+   color: #111D15;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 120%;
+   width: 318px;
+   padding-top: 12px;
+   padding-bottom: 16px;
+   margin: 0 auto;
+
+}
+.servicecardone p{
+ width: 320px;
+ line-height: 150%;
+ color: #666666;
+ line-height: 150%;
+ padding-bottom: 48px;
+ margin: 0 auto;
+
+}
+.servicecardone{
+    text-align: center;
+}
+.sertwobtn a{
+    font-weight: 600;
+    color: #666666;
+    padding: 20px 117px;
+   
+    border-radius: 20px;
+    border: 1px solid #666666;
+}
+.sertwobtn a:hover{
+color: #fff;
+    background-color: #36B864;
+    border: none;
+}
+.servicecardone:hover{
+
+transform: translateY(-10px);
+}
+.servicecardone{
+    transition: 0.5s;
+}
+/* service end */
+/* contact start */
+.contactnav{
+ 
+    background-color: #66666669;
+    border-radius: 10px;
+}
+.conttext h5{
+font-size: 20px;
+font-weight: 600;
+color: #111D15;
+}
+.conttext{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.conttext h6{
+    margin-top: 6px;
+}
+.contactnav img{
+    margin-left: 10px;
+}
+.contactext{
+    margin-top: 223px;
+}
+.contactext h3{
+    font-size: 40px;
+    font-weight: 500;
+    color: #111D15;
+    margin-bottom: 60px;
+}
+
+   
+.contmidium{
+ margin: 30px 0px; 
+}
+.contbtm h6{
+    line-height: 120%;
+    color: #111D15;
+    margin-top: 150px;
+}
+.contbtm h4{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.contbtm p{
+    line-height: 150%;
+  color: #666666;
+  width: 500px;
+  margin-bottom: 50px;
+}
+.contform input{
+    width: 100%;
+    margin-bottom: 27px;
+    background-color: #66666669;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px
+}
+.contformbtmn input{
+    padding: 40px 0px;
+}
+.combtbtn a{
+    color: #fff;
+    background-color: #36B864;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 20px 40px ;
+}
+/* contact end */
+/* footer start */
+.fottimg p{
+width: 356px;
+margin-top: 24px;
+color: #fff;
+}
+.fotscond h4{
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 36px;
+color: #fff;
+}
+.fotscond ul li a{
+  
+   color: #111D15;
+   margin-left: -30px;
+   color: #fff;
+}
+.fotscond ul li:nth-child(2){
+  
+   margin: 15px 0px;
+   margin-left: 0px;
+  
+}
+.footbtn a{
+    color: #fff;
+    background-color:#36B864 ;
+    padding: 16px 32px;
+    border-radius: 6px;
+}
+.footbtm input{
+margin: 26px 0px;
+width: 100%;
+padding: 6px;
+}
+#footter{
+    background-color: #111D15;
+    padding: 115px 0px;
+    margin-top: 76px;
+}
+.fottimg img{
+    color: white;
+}
+.footbtm h4{
+    font-size: 20px;
+font-weight: 700;
+
+color: #fff;
+}
+/* footer end */

@@ -1,49 +1,785 @@
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 
-nav{
-    margin: 24px 0px;
-   
-}
-.menuflex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.menubar ul{
-    display:flex;
-   gap: 5px
-   ;
-    align-items: center;
-}
-.menubar ul li a{
 
+/* HEADER SECTION CSS START */
 
-
- font-size: 14px;
+nav {
+    margin: 12px 0px;
 
 }
-.menubar ul li a:hover{
-    color:#36B864;
+
+.navbar-nav .nav-item a {
+   text-align: center;
 }
-.menubtn a{
+
+
+.menubtn{
+    text-align: center;
+}
+
+/* HEADER SECTION CSS END */
+
+
+/* banner SECTION CSS START */
+#banner {
+    height: 500px;
+    background-image: url(../images/Hero\ Section\ \(2\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+    width:100%;
+
+  
+}
+
+.bannertext h5 {
+    font-size: 18px;
+    line-height: 120%;
+    color: #111D15;
+
+}
+
+.bannertext h1 {
+    color: #111D15;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 115%;
+    width:480px;
+    margin: 10px 0px 12px 0px;
+
+}
+
+.bannertext p {
+    color: #666666;
+    font-size: 18px;
+    line-height: 30px;
+    width: 488px;
+    margin-bottom: 30px;
+
+}
+
+.bannerbtn a {
     color: #fff;
     background-color: #36B864;
-    padding: 3px 10px;
     border-radius: 6px;
-    font-weight: 400;
-    font-size: 12px;
+    padding: 17px 32px;
+
+
+}
+
+.bannerbtn a:hover {
+    color: #111D15;
+    border: 1px solid #111D15;
+    border-radius: 6px;
+    background: transparent;
+}
+
+.bannerbtn a:nth-child(2) {
+    margin-left: 25px;
 }
 
 
+/* banner SECTION CSS END */
+
+/* service SECTION CSS START */
+.servicetext h2 {
+    font-size: 43px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+    width: 536px;
+}
+
+.servicetext h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111D15;
+    margin-bottom: 12px;
+}
+
+.servicetext p {
+    line-height: 150%;
+    color: #666666;
+    width: 433px;
+    margin-right: 0px;
+
+}
+.servicetwo{
+margin: 20px 0px;
+}
+
+.servicetext {
+    margin-top:60px;
+    margin-bottom: 20px;
+}
+
+.serviceline {
+    width: 1170px;
+    color: #83A790;
+}
+
+.scardimg {
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  
+
+}
+.scardimg img{
+    margin-left: 0px;
+    width: 100%;
+}
+
+.scardtext h4 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+}
+
+.scardtext p {
+    color: #666666;
+    width: 370px;
+    line-height: 150%;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.scardbtn a {
+    color: #111D15;
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: 1px solid #4D4D4D;
+
+}
+
+.scardbtn a:hover {
+    color: #fff;
+    background-color: #36B864;
+    border: #36B864;
+
+}
+
+.arrowleft {
+   
+    
+    margin-left: 400px;
+    margin-top: -400px;
+    width: 100%;
+    
+
+
+}
+
+
+/* service SECTION CSS END */
+/* quotes SECTION CSS START */
+.qtext {
+    margin: px 0px;
+}
+
+.qtext h6 {
+    font-family: "Lato", sans-serif;
+    line-height: 120%;
+    color: #111D15;
+    margin-top: 250px;
+}
+
+.qtext h3 {
+    font-family: "Oregano", cursive;
+
+    font-size: 44px;
+    line-height: 120%;
+    margin-top: 12px;
+}
+
+.qtext h4 {
+    font-family: "Outfit", sans-serif;
+
+    font-size: 44px;
+    line-height: 120%;
+}
+
+.qtext p {
+    width: 516px;
+    font-family: "Lato", sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+    color: #666666;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+.qbtn a {
+    padding: 16px 36px;
+    color: #fff;
+    background-color: #36B864;
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.qimg {
+    position: relative;
+  margin-top: -80px;
+    
+}
+
+.qimgtwo img {
+    position: absolute;
+    top: 156px;
+    left: -100px;
+  
+
+}
+
+/* quotes SECTION CSS END */
+/* member SECTION CSS START */
+#member {
+    margin-top: 75px;
+}
+
+.mebertext h3 {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.membertext h5 {
+    font-size: 20px;
+    font-weight: 600;
+
+    color: #111D15;
+}
+
+.membertext p {
+    line-height: 150%;
+    width: 448px;
+
+    color: #666666;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.memcardbtm {
+    margin-left: 20px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+}
+
+.memcard {
+    margin-top: 20px;
+    transition: 0.5s;
+}
+.memcard:hover{
+    box-shadow: 0 60 60 rgb(0,0,0,0.40);
+    
+   transform: translateY(-10px);
+}
+
+.memcardbtm img {
+    margin: 8px 0px;
+
+}
+
+.memcardbtm p {
+    margin-bottom: 20px;
+    line-height: 150%;
+
+    color: #666666;
+    width: 300px;
+
+}
+
+.memcardbtm h4 {
+    font-size: 24px;
+    line-height: 120%;
+    font-weight: 600;
+    color: #111D15;
+}
+
+.memcardbtm a {
+    margin-left: 12px;
+}
+
+/* member SECTION CSS END */
+/* company star */
+#company {
+    margin: 10px 0;
+}
+
+.combtm {
+    margin-right: 0px;
+}
+
+.combtm h3 {
+    width: 525px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+}
+
+.companyimg {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.comimg {
+    position: absolute;
+    top: 177px;
+    right: -60px;
+}
+
+.combtm p {
+
+    line-height: 160%;
+    color: #666666;
+    width: 525px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.combtm {
+    margin: 30px 0px;
+}
+
+.comtop {
+    margin: 10px 0px;
+
+}
+
+.combtm a {
+    color: #111D15;
+    font-weight: 600;
+}
+
+.combtm i {
+    color: #36B864;
+}
+
+.companybtn a {
+    background-color: #36B864;
+    color: #fff;
+    padding: 12px 32px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 20px;
+
+}
+
+.companybtn a:hover {
+    background: transparent;
+    color: #111D15;
+    border: 1px solid #111D15;
+}
+
+.companybtn {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.companybtn a:nth-child(2) {
+    margin-left: 24px;
+}
+
+/* company end */
+/* price start */
+#price {
+    background-color: #36B864;
+    text-align: center;
+  
+}
+
+.pricetop {
+    padding-top: 40px;
+    padding-bottom: 445px;
+}
+
+.pricetop h5 {
+    font-size: 20px;
+    color: #ffffffa2;
+
+}
+
+.pricetop h3 {
+    color: #fff;
+    font-size: 33px;
+    font-weight: 600;
+    width: 500px;
+    line-height: 120%;
+    margin: 0 auto;
+    padding-top: 6px;
+    padding-bottom: 18px;
+}
+
+.pricebtn a {
+    padding: 7px 22px;
+    background-color: #36B864;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+.pricebtn a:hover {
+
+    background-color: #fff;
+    color: #111D15;
+    border: 1px solid #111d153f;
+
+}
+
+.pricebtn {
+    padding: 10px 8px;
+    color: #fff;
+    border-radius: 200px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    width: 234px;
+
+
+    margin: 0 auto;
+
+}
+.pricecard{
+    background-color: #fff;
+    border-radius: 20px;
+  
+  margin-top: -400px;
+  padding-top: 10px;
+}
+
+.pricecard h4{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #111D15;
+   text-align: center;
+  
+    margin-top: 15px;
+    margin-bottom: 12px;
+    
+}
+.pricewrap h3 i{
+font-size: 8px;
+margin-right: -2px;
+}
+.pricewrap h3{
+    padding: 4px 20px;
+    background-color: #36B864;
+font-size: 14px;
+    width: 130px;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: #fff;
+}
+.pricewrapmont{
+    font-size: 8px;
+margin-left: -6px;
+}
+.pricecardtext{
+ padding-top: 16px;
+ padding-bottom: 56px;
+ width: 250px;
+ text-align: start;
+margin: 0 auto;
 
 
 
+}
+.pricecardtext h6{
+font-size: 8px;
+color: #666666;
+margin-top: 12px;
+}
+.pricecardtext h6 i{
+font-size: 6px;
+margin-right: 10px;
+margin-top: 5px;
+}
+.pricebtnbtm a{
+   
+       border: 1px solid #111D15;
+   color: #111D15;
+    padding: 10px 3px ;
+    border-radius: 20px;
+    width: 250px;
+    margin-top: -30px;
+   
+   
+    
+  
+}
+.pricebtnbtm a:hover{
+   border: none;
 
+   color: #111D15;
+   color: #fff;
+       background-color: #36B864;
+  
+}
+.pricebtnbtm{
+    text-align: center;
+    
 
+}
+/* price end */
 
+/* experinece start  */
+.extext h3{
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+    width: 500px;
+    margin-top: 40px;
+}
+.extext p{
+  width: 419px;
+  line-height: 160%;
+  color: #666666;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+.exfont i{
+    padding: 16px 32px;
+    border: 1px solid #36B864;
+    color:#36B864 ;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.exfont i:nth-child(2){
+    margin-left: 30px;
+}
+.exfont i:hover{
+   
+  color: #fff;
+    background-color: #36B864;
+}
+.exbottom{
+    margin-top: 0px;
+    margin-bottom: 150px;
+}
+.exbottom:hover{
+  box-shadow: 0 58 90 rgba(0,0,0,0.40);
+  transform: translateY(-10px)
+}
+/* experinece end */
+/* service start */
+.servicetextt h3{
+    width: 500px;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+    margin-top: -50px;
+}
+.servicetextt p{
+    color: #666666;
+    width: 474px;
+    line-height: 150%;
+    margin-top: 12px;
+}
+.serviceetextt h5{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #111D15;
+}
+.serviceimg{
+    width: 99%;
+    margin-top: 40px;
+}
+.servicecardone h6{
+    color: #666666;
+    margin-top: 18px;
+    
+}
+.servicecardone h3{
+   color: #111D15;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 120%;
+   width: 318px;
+   padding-top: 6px;
+   padding-bottom: 8px;
+   margin: 0 auto;
 
+}
+.servicecardone p{
+ width: 320px;
+ line-height: 150%;
+ color: #666666;
+ line-height: 150%;
+ padding-bottom: 50px;
+ margin: 0 auto;
 
+}
+.servicecardone{
+    text-align: center;
+}
+.sertwobtn{
+    margin-top: -20px;
+}
+.sertwobtn a{
+    font-weight: 600;
+    color: #666666;
+    padding: 20px 117px;
+   
+    border-radius: 20px;
+    border: 1px solid #666666;
+    
+}
+.sertwobtn a:hover{
+color: #fff;
+    background-color: #36B864;
+    border: none;
+}
+.servicecardone:hover{
+
+transform: translateY(-10px);
+}
+.servicecardone{
+    transition: 0.5s;
+    margin-top: 30px;
+}
+/* service end */
+/* contact start */
+.contactnav{
+ 
+    background-color: #66666669;
+    border-radius: 10px;
+}
+.conttext h5{
+font-size: 20px;
+font-weight: 600;
+color: #111D15;
+
+}
+.conttext{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.conttext h6{
+    margin-top: 6px;
+}
+.contactnav img{
+    margin-left: 10px;
+}
+.contactext{
+    margin-top: 100px;
+}
+.contactext h3{
+    font-size: 40px;
+    font-weight: 500;
+    color: #111D15;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+   
+.contmidium{
+ margin: 15px 0px; 
+}
+.contbtm h6{
+    line-height: 120%;
+    color: #111D15;
+    margin-top: 60px;
+}
+.contbtm h4{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #111D15;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.contbtm p{
+    line-height: 150%;
+  color: #666666;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.contform input{
+    width: 100%;
+    margin-bottom: 27px;
+    background-color: #66666669;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px
+}
+.contformbtmn input{
+    padding: 40px 0px;
+}
+.combtbtn a{
+    color: #fff;
+    background-color: #36B864;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 20px 40px ;
+}
+/* contact end */
+
+/* footer start */
+.fottimg p{
+width: 356px;
+margin-top: 12px;
+color: #fff;
+margin-bottom: 40px;
+}
+.fotscond h4{
+font-size: 20px;
+font-weight: 700;
+margin-bottom: 18px;
+color: #fff;
+}
+.fotscond ul li a{
+  
+   color: #111D15;
+   margin-left: -30px;
+   color: #fff;
+}
+.fotscond ul li:nth-child(2){
+  
+   margin: 8px 0px;
+   margin-left: 0px;
+  
+}
+.footbtn a{
+    color: #fff;
+    background-color:#36B864 ;
+    padding: 16px 218px;
+    border-radius: 6px;
+    width: 100%;
+}
+.footbtm input{
+margin: 18px 0px;
+width: 100%;
+padding: 6px;
+}
+#footter{
+    background-color: #111D15;
+    padding: 80px 0px;
+    margin-top: 76px;
+}
+.fottimg img{
+   
+}
+.footbtm h4{
+    font-size: 20px;
+font-weight: 700;
+margin-top: 40px;
+text-align: center;
+
+color: #fff;
+}
+/* footer end */
 
 
 
