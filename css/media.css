@@ -503,9 +503,10 @@ color: #666666;
 margin-top: 12px;
 }
 .pricecardtext h6 i{
-font-size: 6px;
-margin-right: 10px;
+font-size: 2px;
+margin-right: 5px;
 margin-top: 5px;
+margin-left: 3px;
 }
 .pricebtnbtm {
    margin-top: -18px; 
