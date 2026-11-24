@@ -587,6 +587,7 @@ margin-top: 10px;
 .exbottom{
     margin-top: 150px;
     margin-bottom: 150px;
+    transition: 0.5s;
 }
 .exbottom:hover{
   box-shadow: 0 58 90 rgba(0,0,0,0.40);
