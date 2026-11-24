@@ -99,7 +99,7 @@ nav {
     color: #111D15;
     margin-bottom: 12px;
     margin-top: -70px;
-    border: 1px solid #000;
+   
 }
 
 .servicetext p {
@@ -584,15 +584,16 @@ margin-top: 5px;
     line-height: 120%;
     color: #111D15;
     margin-top: -50px;
+    margin-bottom: 16px;
 }
 .servicetextt p{
     color: #666666;
     width: 474px;
     line-height: 150%;
-    margin-top: 12px;
+    margin-top: 8px;
 }
 .serviceetextt h5{
-    margin-top: 30px;
+    margin-top: 15px;
     font-size: 20px;
     font-weight: 600;
     color: #111D15;

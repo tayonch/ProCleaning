@@ -600,19 +600,25 @@ margin-top: 10px;
     font-weight: 600;
     line-height: 120%;
     color: #111D15;
-    margin-top: -75px;
+   
 }
-.servicetextt p{
+.serviceetexttone p{
     color: #666666;
     width: 474px;
     line-height: 150%;
     margin-top: 12px;
 }
-.serviceetextt h5{
-    margin-top: 75px;
+.serviceetexttone h5{
+    /* margin-top: 75px; */
     font-size: 20px;
     font-weight: 600;
     color: #111D15;
+   
+   
+}
+.serviceetexttone {
+
+margin-bottom: 30px;
 }
 .serviceimg{
     width: 99%;
